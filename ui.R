@@ -16,9 +16,8 @@ library(mice) # Imputación de datos
 library(UBL) # Balanceo: Oversampling con observaciones sintéticas, Over & Under por muestreo simple
 library(blorr) # Prueba Delta-Chi
 library(lmtest) # TVR
-library(ranger)
-library(psych)
-library(xtable)
+library(ranger) # Paquete adicional para los árboles generados en "mice"
+library(psych) # Paquete para resumen de datos de variables, función describe()
 
 # library(dashboardthemes) # Paquete para temas
 # library(shinythemes) # temas pre establecidos, se puede descargar el css para modificar, además tienen varias opciones html
